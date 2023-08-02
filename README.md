@@ -28,11 +28,12 @@ The performance of the KNN regression models is as follows:
 Based on the results, the modified KNN regression model demonstrated superior performance compared to the normalized model by a slight margin. It achieved a higher R-squared score of 0.658, outperforming the normalized model's score of 0.649. 
 
 Furthermore, we compared the Learning Curves of a model with a K=2 parameter which scored at 0.626 and the best K parameter's model scoring 0.658. 
-The difference in the scores mmight not be significant but the learning curves showed e concerning trend. 
 
-While the best K model exhibited no signs of overfitting, showcasing its ability to generalize well to new data.
+The simple K=2 parameter performed well on the training set, achieving a correct score, it struggled to attain the same level of performance on the test set. This discrepancy strongly indicates overfitting of the data, suggesting that the model did not generalize effectively. 
 
-On the other hand, the simple K parameter established at 2 performed well on the training set, achieving a correct score, it struggled to attain the same level of performance on the test set. This discrepancy strongly indicates overfitting of the data, suggesting that the model did not generalize effectively.
+
+On the other hand, the best K model exhibited no signs of overfitting, showcasing its ability to generalize well to new data.
+
 
 ---
 
